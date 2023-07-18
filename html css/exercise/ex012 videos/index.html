@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos with HTML5</title>
+    <style>
+        body {
+            color: red;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inserting locally hosted videos</h1>
+    <p>this video is hosted on my onw service</p>
+
+    <!--<video src="media/my-video1.webm.mp4" width="300" controls></video>-->
+
+    <video controls width="300" poster="images/logo-html.png" height="315" autoplay loop>
+        <source src="media/my-video-small.webm" type="video/webm">
+        <source src="media/my-video1.webm.mp4" type="video/mp4">
+        <p>If your browser doesn´t be compatible with playing the video</p>
+    </video>
+
+    <h1>Inserting youtube videos</h1>
+    <iframe width="300" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
