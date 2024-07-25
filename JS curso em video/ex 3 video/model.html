@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>title</h1>
+    </header>
+    <section>
+        <div>
+            <p>Birth year: 
+                <input type="number" name="textyear" id="textyear" min="0">
+            </p>
+            <p>Sex: 
+                <input type="radio" name="radsex" id="male" checked>
+                <label for="male">Male: </label>
+                <input type="radio" name="radsex" id="female">
+                <label for="female">Female: </label>
+            </p>
+            <p>
+                <input type="button" value="check" onclick="check()">
+            </p>
+        </div>
+        <div id="r">
+            Fill out here
+        </div>
+    </section>
+    
+    <footer><p>&copy; UrsoEmVideo</p></footer>
+    <script src="js.js"></script>
+</body>
+</html>

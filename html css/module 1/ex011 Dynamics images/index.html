@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <h1>Audio</h1>
+
+        <h2>Exemple 1</h2>
+
+        <audio src="media/n.mp3" controls autoplay loop></audio> <!-- MP3 (mp3 = mpeg) WAV OGG -->
+
+        <h2>Example 2</h2>
+        
+        <audio preload="metadata" controls>
+            <source src="media/n.mp3" type="audio/mp3">
+            <source src="media/n.ogg" type="audio/ogg">
+            <source src="media/n.wav" type="audio/wav">
+            <p>Unfortunately your browser can´t play audio <a href="media/n.mp3">Click here to download the file MP3</a></p>
+        </audio>
+        
+</body>
+</html> 

@@ -1,0 +1,20 @@
+- function
+   . arrow function
+   . callbacks functions
+   . anonymous functions
+   . iife 
+
+- Objects
+
+- recurssividade
+
+- modularization
+
+- RegEx
+
+- Json
+
+- Ajax
+
+- NodeJS
+

@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+div {
+    font-size: small;
+}
+
+div#a {
+    margin-left: 450px;
+}
+
+div#b {
+    margin-left: 450px;
+}

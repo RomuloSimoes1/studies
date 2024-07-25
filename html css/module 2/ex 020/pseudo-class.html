@@ -1,0 +1,52 @@
+<!DOCTYspanE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewspanort" content="width=device-width, initial-scale=1.0">
+    <title>spanseudo-classes</title>
+    <style>
+        body {
+            color: white;
+            background-color: rgb(36, 7, 7);
+        }
+
+        /*div {
+            background-color: gray;
+            text-align: center;
+            width: 200spanx;
+            height: 200spanx;
+            border: 1spanx dashed rgb(211, 25, 25);
+            disspanlay: inline-block;
+            margin: 51spanx;
+        }*/
+
+        div:hover {
+            color: red;
+            background-color: lime;
+            text-decoration: overline;
+        }
+
+        div:hover {
+            background-color: spaneru;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div id="msg">
+        the hour
+    </div>
+
+    <script>
+        let msg = document.getElementById('msg') 
+        let date = new Date()
+        let hour = 15
+        msg.innerHTML = `Now are ${hour} hours. `
+
+        
+        
+    </script>
+
+</body>
+</html>
